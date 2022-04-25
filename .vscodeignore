@@ -1,5 +1,15 @@
+# Note: It looks like this doesn't automaticly include .gitignore
+# And Azure devops doesn't support secret scanning.
+
 .vscode/**
 .vscode-test/**
 exampes/**
 .gitignore
 vsc-extension-quickstart.md
+.vscode-ms-auth
+CONTIBUTING.md
+contents.txt
+
+node_modules
+*.vsix
+.vscode-ms-auth.sh

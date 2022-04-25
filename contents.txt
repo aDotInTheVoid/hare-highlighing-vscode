@@ -1,0 +1,12 @@
+extension.vsixmanifest
+[Content_Types].xml
+extension/CHANGELOG.md
+extension/fileicons/dark.png
+extension/fileicons/hare-icon-theme.json
+extension/fileicons/light.png
+extension/language-configuration.json
+extension/LICENSE-APACHE
+extension/LICENSE-MIT
+extension/package.json
+extension/README.md
+extension/syntaxes/hare.tmLanguage.json
