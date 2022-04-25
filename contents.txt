@@ -4,6 +4,7 @@ extension/CHANGELOG.md
 extension/fileicons/dark.png
 extension/fileicons/hare-icon-theme.json
 extension/fileicons/light.png
+extension/img/icon-128.png
 extension/language-configuration.json
 extension/LICENSE-APACHE
 extension/LICENSE-MIT

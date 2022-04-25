@@ -9,6 +9,8 @@ vsc-extension-quickstart.md
 .vscode-ms-auth
 CONTIBUTING.md
 contents.txt
+package.sh
+img/icon.png
 
 node_modules
 *.vsix

@@ -38,5 +38,6 @@ AFAIKT, adotinthevoid is the publisher, not the dev-ops org, but it asks for a P
 
 ```shell
 vsce package
-unzip -l hare-highlighting-0.0.1.vsix # Inspect package
+zipinfo -1 ./hare-highlighting-*.vsix > contents.txt # Inspect package
+git diff contents.txt # Ensure this is expected
 ```
