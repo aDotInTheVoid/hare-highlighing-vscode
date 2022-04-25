@@ -1,11 +1,19 @@
 {
     "iconDefinitions": {
-        "_harriet": {
-            "__comment": "TODO: Dark Mode, Transparent background",
-            "iconPath": "./mascot.png"
+        "_harriet_light": {
+            "iconPath": "./light.png"
+        },
+        "_harriet_dark": {
+            "iconPath": "./dark.png"
         }
     },
+    "light": {
+        "languageIds": {
+            "hare": "_harriet_light"
+        }
+    },
+    // Dark is default, boo! 
     "languageIds": {
-        "hare": "_harriet"
+        "hare": "_harriet_dark"
     }
 }
