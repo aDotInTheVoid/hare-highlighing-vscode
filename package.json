@@ -2,13 +2,14 @@
     "name": "hare-highlighting",
     "displayName": "Hare Highlighting",
     "description": "Syntax Highlighting for Hare",
+    "license": "MIT OR Apache-2.0",
     "icon": "img/icon-128.png",
     "repository": {
         "type": "git",
         "url": "https://github.com/aDotInTheVoid/hare-highlighing-vscode"
     },
     "publisher": "aDotInTheVoid",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.66.0"
     },

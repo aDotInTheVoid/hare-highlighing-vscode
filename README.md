@@ -1,5 +1,8 @@
 # vscode-hare-highlighting
 
+- [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=adotinthevoid.hare-highlighing)
+
+
 This extension provides syntax highlighting for the [Hare](https://harelang.org/) language in VSCode.
 In addition, the [TextMate Language](./syntaxes/hare.tmLanguage.json) could be usefull 
 

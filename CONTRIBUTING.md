@@ -6,6 +6,8 @@ Unlike most projects in the hare ecosystem. This one is hosted on GitHub, and us
 
 You probably wont need to do this, but it's notes for me.
 
+## MS Visual Studio Code
+
 [vscode docs](https://code.visualstudio.com/api/working-with-extensions/publishing-extension)
 
 [You need a recent version of node](https://github.com/microsoft/vscode-vsce/issues/653).
@@ -40,4 +42,19 @@ AFAIKT, adotinthevoid is the publisher, not the dev-ops org, but it asks for a P
 vsce package
 zipinfo -1 ./hare-highlighting-*.vsix > contents.txt # Inspect package
 git diff contents.txt # Ensure this is expected
+```
+
+## Eclipse OpenVSX.
+
+https://github.com/eclipse/openvsx/wiki/Publishing-Extensions
+
+Login to accounts.eclipse.org. Username is your github.
+
+Log into https://open-vsx.org/ with GH account.
+
+Get a OVSX Pat. Put it in env var `OVSX_PAT`
+
+```shell
+npm i -g ovsx
+ovsx create-namespace adotinthevoid # Should be a 1 time affair
 ```
