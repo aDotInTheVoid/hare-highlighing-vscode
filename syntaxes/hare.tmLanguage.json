@@ -7,6 +7,12 @@
 		},
 		{
 			"include": "#strings"
+		},
+		{
+			"include": "#line_comment"
+		},
+		{
+			"include": "#block_comment"
 		}
 	],
 	"repository": {
@@ -28,6 +34,17 @@
 					"match": "\\\\."
 				}
 			]
+		},
+		"line_comment": {
+			"name": "comment.line.double-slash.hare",
+			"begin": "//",
+			"end": "$"
+		},
+		"block_comment": {
+			"comment": "Block comment",
+			"name": "comment.block.hare",
+			"begin": "/\\*",
+			"end": "\\*/"
 		}
 	},
 	"scopeName": "source.hare"
