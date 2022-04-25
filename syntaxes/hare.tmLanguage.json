@@ -9,6 +9,9 @@
 			"include": "#strings"
 		},
 		{
+			"include": "#strings_2"
+		},
+		{
 			"include": "#line_comment"
 		},
 		{
@@ -56,7 +59,7 @@
 		{
 			"comment": "Conversion Operators",
 			"name": "keyword.operator.conversion.hare",
-			"match": "(is|as)"
+			"match": "\\b(is|as)\\b"
 		}
 	],
 	"repository": {
@@ -79,6 +82,11 @@
 					"match": "\\\\."
 				}
 			]
+		},
+		"strings_2": {
+			"name": "string.quoted.single.hare",
+			"begin": "`",
+			"end": "`"
 		},
 		"line_comment": {
 			"name": "comment.line.double-slash.hare",
