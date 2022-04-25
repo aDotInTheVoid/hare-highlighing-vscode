@@ -10,16 +10,32 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "hare",
-            "aliases": ["Hare", "hare"],
-            "extensions": [".ha"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "hare",
-            "scopeName": "source.hare",
-            "path": "./syntaxes/hare.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "hare",
+                "aliases": [
+                    "Hare",
+                    "hare"
+                ],
+                "extensions": [
+                    ".ha"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "hare",
+                "scopeName": "source.hare",
+                "path": "./syntaxes/hare.tmLanguage.json"
+            }
+        ],
+        "iconThemes": [
+            {
+                "id": "hare",
+                "label": "Hare",
+                "path": "./fileicons/hare-icon-theme.json"
+            }
+        ]
     }
 }

@@ -1,0 +1,11 @@
+{
+    "iconDefinitions": {
+        "_harriet": {
+            "__comment": "TODO: Dark Mode, Transparent background",
+            "iconPath": "./mascot.png"
+        }
+    },
+    "languageIds": {
+        "hare": "_harriet"
+    }
+}
