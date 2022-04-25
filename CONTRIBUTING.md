@@ -1,6 +1,6 @@
 # Contibuting to vscode-hare-highlighting
 
-Unlike most projects in the hare ecosystem. This one is hosted on GitHub, and uses Pull Requests. Sad, I know.
+Unlike most projects in the hare ecosystem, this one is hosted on GitHub, and uses Pull Requests. Sad, I know.
 
 ## Release Procedure.
 
