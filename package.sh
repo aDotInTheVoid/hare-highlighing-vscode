@@ -11,7 +11,7 @@ if [[ -z ${OVSX_PAT+secret} ]]; then
     echo "OVSX_PAT is not set"
     exit 1
 fi
-if [[ -z $1 ]]; then
+if [[ -z ${1+unset} ]]; then
     echo "Usage: $0 --publish-vsce | --publish-ovsx | --dry-run"
     exit 1
 fi
