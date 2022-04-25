@@ -1,0 +1,25 @@
+{
+    "name": "hare-highlighting",
+    "displayName": "Hare Highlighting",
+    "description": "Syntax Highlighting for Hare",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.66.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "hare",
+            "aliases": ["Hare", "hare"],
+            "extensions": [".ha"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "hare",
+            "scopeName": "source.hare",
+            "path": "./syntaxes/hare.tmLanguage.json"
+        }]
+    }
+}
