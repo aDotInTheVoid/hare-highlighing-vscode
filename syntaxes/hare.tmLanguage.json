@@ -11,10 +11,12 @@
 	],
 	"repository": {
 		"keywords": {
-			"patterns": [{
-				"name": "keyword.control.hare",
-				"match": "\\b(if|while|for|return)\\b"
-			}]
+			"patterns": [
+				{
+					"name": "keyword.control.hare",
+					"match": "\\b(abort|alloc|append|as|assert|bool|break|char|const|continue|def|defer|delete|else|enum|export|f32|f64|false|fn|for|free|i16|i32|i64|i8|if|int|is|len|let|match|null|nullable|offset|return|rune|size|static|str|struct|switch|true|type|u16|u32|u64|u8|uint|uintptr|union|use|void|_)\\b"
+				}
+			]
 		},
 		"strings": {
 			"name": "string.quoted.double.hare",
