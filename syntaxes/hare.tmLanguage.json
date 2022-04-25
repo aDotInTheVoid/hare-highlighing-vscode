@@ -12,7 +12,51 @@
 			"include": "#line_comment"
 		},
 		{
-			"include": "#block_comment"
+			"include": "#misc_ops"
+		},
+		{
+			"include": "#core_types"
+		},
+		{
+			"include": "#boolean"
+		},
+		{
+			"include": "#int_dec_lit"
+		},
+		{
+			"include": "#char_lit"
+		},
+		{
+			"comment": "Comparison operator",
+			"name": "keyword.operator.comparison.hare",
+			"match": "(&&|\\|\\||==|!=)",
+			"__comment": "TODO: These are from rust, not hare"
+		},
+		{
+			"comment": "Assignment operator",
+			"name": "keyword.operator.assignment.hare",
+			"match": "(\\+=|-=|/=|\\*=|%=|\\^=|&=|\\|=|<<=|>>=|=)"
+		},
+		{
+			"comment": "Arithmetic operator",
+			"name": "keyword.operator.arithmetic.hare",
+			"match": "(!|\\+|-|/|\\*|%|\\^|&|\\||<<|>>)"
+		},
+		{
+			"comment": "Comparison operator (second group because of regex precedence)",
+			"name": "keyword.operator.comparison.hare",
+			"match": "(<=|>=|<|>)"
+		},
+		{
+			"comment": "Preprocessor Directive",
+			"name": "comment.block.preprocessor.hare",
+			"__comment": "TODO: Whats the right name/color for this",
+			"match": "(@[a-z]+)"
+		},
+		{
+			"comment": "Conversion Operators",
+			"name": "keyword.operator.conversion.hare",
+			"match": "(is|as)"
 		}
 	],
 	"repository": {
@@ -20,7 +64,8 @@
 			"patterns": [
 				{
 					"name": "keyword.control.hare",
-					"match": "\\b(abort|alloc|append|as|assert|bool|break|char|const|continue|def|defer|delete|else|enum|export|f32|f64|false|fn|for|free|i16|i32|i64|i8|if|int|is|len|let|match|null|nullable|offset|return|rune|size|static|str|struct|switch|true|type|u16|u32|u64|u8|uint|uintptr|union|use|void|_)\\b"
+					"__comment": "TODO: Should `use` be here. I think its not a keyword, as you can use it in a function call",
+					"match": "\\b(abort|alloc|append|assert|break|case|const|continue|def|defer|delete|else|enum|export|fn|for|free|if|insert|len|let|match|offset|return|size|static|struct|switch|type|union|vaarg|vaend|vastart|yield|use)\\b"
 				}
 			]
 		},
@@ -40,11 +85,32 @@
 			"begin": "//",
 			"end": "$"
 		},
-		"block_comment": {
-			"comment": "Block comment",
-			"name": "comment.block.hare",
-			"begin": "/\\*",
-			"end": "\\*/"
+		"misc_ops": {
+			"comment": "Miscellaneous operator",
+			"name": "keyword.operator.misc.hare",
+			"match": "(=>|::|:|\\?|!|\\|)"
+		},
+		"core_types": {
+			"comment": "Built-in/core type",
+			"name": "support.type.primitive.hare",
+			"match": "\\b(str|rune|char|bool|int|uint|uintptr|u8|u16|u32|u64|i8|i16|i32|i64|f32|f64|null|void|nullable|valist)\\b"
+		},
+		"boolean": {
+			"comment": "Boolean constant",
+			"name": "constant.language.boolean.hare",
+			"match": "\\b(true|false)\\b"
+		},
+		"int_dec_lit": {
+			"comment": "Integer literal (decimal)",
+			"name": "constant.numeric.integer.decimal.hare",
+			"__comment": "TODO: Type suffixes",
+			"match": "\\b[0-9][0-9_]*\\b"
+		},
+		"char_lit": {
+			"comment": "Single-quote string literal (character)",
+			"__comment": "TODO: This is just taken from rust, update it",
+			"name": "string.quoted.single.hare",
+			"match": "b?'([^'\\\\]|\\\\(x[0-9A-Fa-f]{2}|[0-2][0-7]{0,2}|3[0-6][0-7]?|37[0-7]?|[4-7][0-7]?|.))'"
 		}
 	},
 	"scopeName": "source.hare"
