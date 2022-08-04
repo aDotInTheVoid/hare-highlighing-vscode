@@ -23,7 +23,7 @@ To publish, you need an azure dev-ops org. What a pain. This is accociated with 
 
 Get some personal access tokens from (https://dev.azure.com/adotinthevoid/_usersSettings/tokens)
 
-Don't inflate the privlages, because you'll need to save this
+Don't inflate the privlages, because you'll need to save this. Set Scopes to Custom defined and choose the Marketplace > Manage scope
 
 My Azure dev-ops org is https://dev.azure.com/adotinthevoid
 

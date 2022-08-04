@@ -5,6 +5,7 @@ extension/fileicons/dark.png
 extension/fileicons/hare-icon-theme.json
 extension/fileicons/light.png
 extension/img/icon-128.png
+extension/img/ss-brenton-wl.png
 extension/img/ss-github-dark.png
 extension/img/ss-github-light.png
 extension/img/ss-quite-light.png

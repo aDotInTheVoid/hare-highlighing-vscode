@@ -15,3 +15,4 @@ img/icon.png
 node_modules
 *.vsix
 .vscode-ms-auth.sh
+syntax-tests
