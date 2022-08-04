@@ -51,3 +51,12 @@ Unless you explicitly state otherwise, any contribution intentionally submitted
 for inclusion in this crate by you, as defined in the Apache-2.0 license, shall
 be dual licensed as above, without any additional terms or conditions.
 </sub>
+
+<br>
+
+<sup>
+The code in the <a href="syntax-tests"><code>syntax-tests</code></a> directory is 
+taken from the <a href="https://git.sr.ht/~sircmpwn/hare">Hare repository</a>,
+and is licensed under the <a href="syntax-tests/LICENSE-MPL">Mozilla Public 
+License Version 2.0</a>.
+</sup>
