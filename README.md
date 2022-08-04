@@ -20,6 +20,7 @@ In the Extensions marketplace, search for `adotinthevoid.hare-highlighting`.
 ![A screanshot of hilighed hare code](./img/ss-github-dark.png)
 ![A screanshot of hilighed hare code](./img/ss-quite-light.png)
 ![A screanshot of hilighed hare code](./img/ss-vscode-dark.png)
+![A screanshot of hilighed hare code](./img/ss-brenton-wl.png)
 
 ## Requirements
 
