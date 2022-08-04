@@ -37,6 +37,7 @@ Hare is still evolving, so the syntax may be out of date.
 ## Prior Art
 
 - The file icon used is based on [one](https://git.sr.ht/~sircmpwn/harelang.org/tree/master/item/static/mascot.png) by [Louis Taylor](https://kragniz.eu/) but modified to have a transparent background and dark version, and is licensed under [CC-BY-SA](https://lists.sr.ht/~sircmpwn/hare-users/%3CCBMC9SERFVB7.33GF24BG5AGFO%40taiga%3E).
+- Large portions of the grammar are taken from [the rust extension](https://github.com/rust-lang/vscode-rust/blob/b1ae67b06640ffab6e1ebb72e07364b4477dfbf1/rust-analyzer/editors/code/rust.tmGrammar.json).
 
 #### License
 
