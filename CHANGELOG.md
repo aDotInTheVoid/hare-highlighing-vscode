@@ -1,3 +1,11 @@
+<a name="v0.0.4"></a>
+# [v0.0.4](https://github.com/aDotInTheVoid/hare-highlighing-vscode/releases/tag/v0.0.4) - 04 Aug 2022
+
+- Improved syntax highlighting by @jfreymuth in https://github.com/aDotInTheVoid/hare-highlighing-vscode/pull/2, especial for string escapes and number literals
+
+[Changes][v0.0.4]
+
+
 <a name="v0.0.3"></a>
 # [v0.0.3](https://github.com/aDotInTheVoid/hare-highlighing-vscode/releases/tag/v0.0.3) - 25 Apr 2022
 
@@ -27,6 +35,7 @@ Initial Release
 [Changes][v0.0.1]
 
 
+[v0.0.4]: https://github.com/aDotInTheVoid/hare-highlighing-vscode/compare/v0.0.3...v0.0.4
 [v0.0.3]: https://github.com/aDotInTheVoid/hare-highlighing-vscode/compare/v0.0.2...v0.0.3
 [v0.0.2]: https://github.com/aDotInTheVoid/hare-highlighing-vscode/compare/v0.0.1...v0.0.2
 [v0.0.1]: https://github.com/aDotInTheVoid/hare-highlighing-vscode/tree/v0.0.1
