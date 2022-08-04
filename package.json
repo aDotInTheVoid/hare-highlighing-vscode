@@ -9,7 +9,7 @@
         "url": "https://github.com/aDotInTheVoid/hare-highlighing-vscode"
     },
     "publisher": "aDotInTheVoid",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "engines": {
         "vscode": "^1.66.0"
     },
