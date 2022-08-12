@@ -3,11 +3,16 @@
 	"name": "hare",
 	"patterns": [
 		{
+			"comment": "Import Statement",
+			"match": "^(use)[\\s\\w:={},*]+;$",
+			"captures": [{"name": "strong"}, {"name": "keyword.hare"}]
+		},
+		{
 			"name": "keyword.hare",
 			"match": "\\b(abort|alloc|append|as|assert|break|case|const|continue|def|defer|delete|else|enum|export|false|fn|for|free|if|insert|is|len|let|match|offset|return|size|static|struct|switch|true|type|union|use|void|yield|_)\\b"
 		},
 		{
-			"name": "keyword.other.hare",
+			"name": "entity.name.tag.hare",
 			"match": "@\\w+"
 		},
 		{
