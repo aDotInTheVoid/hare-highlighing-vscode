@@ -43,6 +43,12 @@
                 "label": "Hare",
                 "path": "./fileicons/hare-icon-theme.json"
             }
-        ]
+        ],
+        "configurationDefaults": {
+            "[hare]": {
+                "editor.insertSpaces": false,
+                "editor.tabSize": 8
+            }
+        }
     }
 }
