@@ -42,44 +42,49 @@
 			]
 		},
 		{
+			"comment": "Floating-point literals with decimal dot",
 			"name": "constant.numeric.hare",
 			"match": "\\b[0-9]+\\.[0-9]+([eE][+-]?[0-9]+)?(f32|f64)?\\b"
 		},
 		{
+			"comment": "Floating-point literals with suffix",
 			"name": "constant.numeric.hare",
 			"match": "\\b[0-9]+([eE][+-]?[0-9]+)?(f32|f64)\\b"
 		},
 		{
+			"comment": "Decimal integer literals",
 			"name": "constant.numeric.hare",
 			"match": "\\b[0-9]+([eE][+-]?[0-9]+)?(i|u|z|i8|i16|i32|i64|u8|u16|u32|u64)?\\b"
 		},
 		{
+			"comment": "Hexadecimal integer literals",
 			"name": "constant.numeric.hare",
 			"match": "\\b0x[0-9a-fA-F]+(i|u|z|i8|i16|i32|i64|u8|u16|u32|u64)?\\b"
 		},
 		{
+			"comment": "Octal integer literals",
 			"name": "constant.numeric.hare",
 			"match": "\\b0o[0-7]+(i|u|z|i8|i16|i32|i64|u8|u16|u32|u64)?\\b"
 		},
 		{
+			"comment": "Binary integer literals",
 			"name": "constant.numeric.hare",
 			"match": "\\b0b[01]+(i|u|z|i8|i16|i32|i64|u8|u16|u32|u64)?\\b"
 		},
 		{
-			"comment": "Comparison operator",
-			"name": "keyword.operator.comparison.hare",
-			"match": "(&&|\\|\\||==|!=)",
-			"__comment": "TODO: These are from rust, not hare"
-		},
-		{
 			"comment": "Assignment operator",
 			"name": "keyword.operator.assignment.hare",
-			"match": "(\\+=|-=|/=|\\*=|%=|\\^=|&=|\\|=|<<=|>>=|=)"
+			"match": "(\\+=|-=|/=|\\*=|%=|\\^=|&=|\\|=|<<=|>>=|&&=|\\^\\^=|\\|\\|=)"
+		},
+		{
+			"comment": "Comparison operator",
+			"name": "keyword.operator.comparison.hare",
+			"match": "(&&|\\^\\^|\\|\\||==|!=)"
 		},
 		{
 			"comment": "Arithmetic operator",
 			"name": "keyword.operator.arithmetic.hare",
-			"match": "(!|\\+|-|/|\\*|%|\\^|&|\\||<<|>>)"
+			"match": "(!|\\+|-|/|\\*|%|\\^|&|\\||<<|>>|~)"
 		},
 		{
 			"comment": "Comparison operator (second group because of regex precedence)",
@@ -89,7 +94,12 @@
 		{
 			"comment": "Miscellaneous operator",
 			"name": "keyword.operator.misc.hare",
-			"match": "(=>|::|:|\\?|!|\\|)"
+			"match": "(=>|::|:|\\?|!|\\.\\.\\.|\\.\\.)"
+		},
+		{
+			"comment": "Assignment operator (second group because of regex precedence)",
+			"name": "keyword.operator.assignment.hare",
+			"match": "="
 		},
 		{
 			"comment": "Built-in/core type",
